@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .sunrise {
+    @apply bg-gradient-to-b from-frostbite to-outrageous-orange;
+  }
+
+  .sunset {
+    @apply bg-gradient-to-b from-blue-ryb to-frostbite;
+  }
+}
+
+@layer components {
+  .btn-main {
+    @apply sunrise w-[167px] h-[56px] desktop:h-[63px] hover:opacity-50 text-white rounded-[31.5px] font-sans font-bold text-[16px] leading-[26px] desktop:text-lg transition-opacity;
+  }
+
+  .btn-footer {
+    @apply sunset w-[140px] h-[48px] desktop:w-[167px] desktop:h-[56px] text-white rounded-[28px] font-sans font-bold text-[16px] leading-[28px] desktop:text-lg hover:opacity-50 transition-opacity;
+  }
+
+  .btn-header {
+    @apply bg-space-cadet w-[140px] h-[48px] desktop:w-[167px] desktop:h-[56px] text-white rounded-[28px] font-sans font-bold text-[16px] leading-[28px] desktop:text-lg hover:opacity-50 transition-opacity;
+  }
+}
+
+/* 
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+*/
