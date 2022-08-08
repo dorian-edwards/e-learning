@@ -1,3 +1,5 @@
+const { url } = require('inspector')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -23,10 +25,17 @@ module.exports = {
       'extra-bold': 800,
     },
     screens: {
-      desktop: '1440px',
       tablet: '768px',
+      desktop: '1440px',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-tablet': 'url(./assets/image-hero-tablet.webp)',
+        'hero-desktop': 'url(./assets/image-hero-desktop.webp)',
+      },
+    },
   },
   plugins: [],
 }
+
+//bg-[url("./assets/image-hero-desktop.png")]

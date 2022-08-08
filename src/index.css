@@ -26,6 +26,10 @@
   }
 }
 
+.test {
+  background: url('./assets/image-hero-desktop.png');
+}
+
 /* 
 font-family: Plus Jakarta Sans;
 font-size: 18px;

@@ -1,8 +1,10 @@
+import Header from './components/Header'
+
 function App() {
   return (
-    <>
-      <div className='font-sans'>Hello World!</div>
-    </>
+    <main className='desktop:pl-[165px] tablet:pl-[39px]'>
+      <Header />
+    </main>
   )
 }
 
