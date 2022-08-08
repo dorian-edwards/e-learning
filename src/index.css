@@ -4,7 +4,7 @@
 
 @layer utilities {
   .sunrise {
-    @apply bg-gradient-to-b from-frostbite to-outrageous-orange;
+    @apply bg-gradient-to-b from-outrageous-orange to-frostbite;
   }
 
   .sunset {
