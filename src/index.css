@@ -10,6 +10,10 @@
   .sunset {
     @apply bg-gradient-to-b from-blue-ryb to-frostbite;
   }
+
+  .snow {
+    @apply bg-gradient-to-b from-white to-magnolia;
+  }
 }
 
 @layer components {
@@ -26,8 +30,24 @@
   }
 }
 
-.test {
-  background: url('./assets/image-hero-desktop.png');
+.icon-animation {
+  background: url(./assets/icon-animation.svg);
+}
+
+.icon-business {
+  background: url(./assets/icon-business.svg);
+}
+
+.icon-crypto {
+  background: url(./assets/icon-crypto.svg);
+}
+
+.icon-design {
+  background: url(./assets/icon-design.svg);
+}
+
+.icon-photography {
+  background: url(./assets/icon-photography.svg);
 }
 
 /* 

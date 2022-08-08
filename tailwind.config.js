@@ -15,6 +15,7 @@ module.exports = {
       frostbite: '#F02AA6',
       'outrageous-orange': '#FF6F48',
       'blue-ryb': '#4851FF',
+      magnolia: '#F0F1FF',
     },
     fontFamily: {
       sans: ['Plus Jakarta Sans', 'sans-serif'],
