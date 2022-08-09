@@ -13,7 +13,7 @@ const Header = () => {
   }, [])
 
   return (
-    <header className='px-6 pb-[200px] tablet:bg-hero-tablet bg-[top_-100px_right_-15em] desktop:bg-hero-desktop desktop:bg-[top_-150px_right_-300px] desktop:pt-[100px] bg-no-repeat'>
+    <header className='px-6 pb-[200px] tablet:bg-hero-tablet bg-[top_-100px_right_-19em] desktop:bg-hero-desktop desktop:bg-[top_-150px_right_-300px] desktop:pt-[100px] bg-no-repeat'>
       <Heading />
       {mobile && <ImageLead />}
     </header>

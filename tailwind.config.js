@@ -16,6 +16,7 @@ module.exports = {
       'outrageous-orange': '#FF6F48',
       'blue-ryb': '#4851FF',
       magnolia: '#F0F1FF',
+      transparent: 'transparent',
     },
     fontFamily: {
       sans: ['Plus Jakarta Sans', 'sans-serif'],
