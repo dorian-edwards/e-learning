@@ -34,6 +34,8 @@ module.exports = {
       backgroundImage: {
         'hero-tablet': 'url(./assets/image-hero-tablet.webp)',
         'hero-desktop': 'url(./assets/image-hero-desktop.webp)',
+        'footer-fade':
+          'linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF, #F02AA6)',
       },
     },
   },

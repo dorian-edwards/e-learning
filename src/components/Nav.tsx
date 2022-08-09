@@ -14,17 +14,3 @@ const Nav = () => {
 }
 
 export default Nav
-
-/**
- * skilled log
- * jakarta sans
- * extra-bold
- * size: 28px
- * line-height: 35.28px
- * lowercase
- * color: space-cadet
- *
- * desktop:
- * size: 36px
- * line-height:45.36px
- */

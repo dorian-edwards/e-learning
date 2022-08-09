@@ -22,11 +22,11 @@
   }
 
   .btn-footer {
-    @apply sunset w-[140px] h-[48px] desktop:w-[167px] desktop:h-[56px] text-white rounded-[28px] font-sans font-bold text-[16px] leading-[28px] desktop:text-lg hover:opacity-50 transition-opacity;
+    @apply sunset w-[140px] h-[48px] desktop:w-[167px] desktop:h-[56px] text-white rounded-[28px] font-sans font-bold text-[16px] leading-[28px] desktop:text-lg hover:bg-footer-fade;
   }
 
   .btn-nav {
-    @apply bg-space-cadet w-[140px] h-[48px] desktop:w-[167px] desktop:h-[56px] text-white rounded-[28px] font-sans font-bold text-[16px] leading-[28px] desktop:text-lg hover:opacity-50 transition-opacity;
+    @apply bg-space-cadet w-[140px] h-[48px] desktop:w-[167px] desktop:h-[56px] text-white rounded-[28px] font-sans font-bold text-[16px] leading-[28px] desktop:text-lg hover:bg-[#666CA3];
   }
 }
 

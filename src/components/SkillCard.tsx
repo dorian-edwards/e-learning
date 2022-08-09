@@ -2,7 +2,7 @@ const SkillCard = ({ type, children }: { type: string; children: string }) => {
   const image = `icon-${type}`
 
   return (
-    <div className='skill-card relative bg-white rounded-[15px] pt-[56px] pl-[28px] tablet:px-6 tablet:flex-[1_1_40%] desktop:flex-[1_1_30%] grid justify-items-start'>
+    <div className='skill-card relative bg-white rounded-[15px] pt-[56px] px-7 tablet:px-[30px] tablet:flex-[1_1_40%] desktop:flex-[1_1_30%] grid justify-items-start'>
       <span
         className={`skill-icon w-[56px] h-[56px] rounded-full inline-block absolute left-8 top-[-24px] ${image}`}
       ></span>
