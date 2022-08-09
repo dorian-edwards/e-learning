@@ -1,0 +1,29 @@
+{
+  "skills": [
+    {
+      "id": "228648650776457770000",
+      "title": "animation",
+      "content": "Learn the latest animation techniques to create stunning motion design and captivate your audience. Get Started"
+    },
+    {
+      "id": "984735633127238500000",
+      "title": "design",
+      "content": "Create beautiful, usable interfaces to help shape the future of how the web looks."
+    },
+    {
+      "id": "431388369867149400000",
+      "title": "photography",
+      "content": "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
+    },
+    {
+      "id": "568614208108408860000",
+      "title": "crypto",
+      "content": "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
+    },
+    {
+      "id": "663574113622140100000",
+      "title": "business",
+      "content": "A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
+    }
+  ]
+}
