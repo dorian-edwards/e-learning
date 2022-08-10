@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Nav />
-      <main className='snow'>
+      <main className='snow overflow-x-hidden'>
         <Header />
         <Content />
       </main>

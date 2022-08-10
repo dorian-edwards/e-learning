@@ -35,7 +35,7 @@ const Image = () => {
       <img
         src={images[screenSize]}
         alt='woman blowing a cup of coffee in front of a laptop'
-        className='z-0 tablet:absolute tablet:top-[-300px] tablet:right-[-200px] desktop:top-[-450px] desktop:right-[-400px] max-w-none'
+        className='z-0 tablet:absolute tablet:top-[-300px] tablet:right-[-200px] desktop:top-[-410px] desktop:right-[-490px] max-w-none'
       />
     </div>
   )
