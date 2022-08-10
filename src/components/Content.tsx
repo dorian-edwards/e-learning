@@ -5,7 +5,7 @@ import data from '../Content/data.json'
 const Content = () => {
   const { skills } = data
   return (
-    <div className='container px-4 tablet:px-[39px] max-w-[1100px] mx-auto flex flex-col gap-y-10 tablet:gap-y-14 tablet:gap-x-3 desktop:gap-x-[30px] desktop:gap-y-20 tablet:flex-row tablet:flex-wrap tablet:justify-between pb-20 tablet:pb-[86px] desktop:pb-[140px]'>
+    <div className='container px-6 container:px-0 max-w-[1100px] mx-auto flex flex-col gap-y-10 tablet:gap-y-14 tablet:gap-x-3 desktop:gap-x-[30px] desktop:gap-y-20 tablet:flex-row tablet:flex-wrap tablet:justify-between pb-20 tablet:pb-[86px] desktop:pb-[140px]'>
       <Banner />
       {skills.map((skill) => (
         <SkillCard key={skill.id} type={skill.title}>

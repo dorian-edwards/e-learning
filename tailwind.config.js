@@ -28,6 +28,7 @@ module.exports = {
     },
     screens: {
       tablet: '768px',
+      container: '1105px',
       desktop: '1440px',
     },
     extend: {
