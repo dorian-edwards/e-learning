@@ -1,21 +1,11 @@
-import { useState, useEffect } from 'react'
-import ImageLead from './ImageLead'
+import Image from './Image'
 import Heading from './Heading'
 
 const Header = () => {
-  const [mobile, setMobile] = useState(window.innerWidth < 768)
-
-  useEffect(() => {
-    window.addEventListener('resize', () => {
-      if (window.innerWidth < 768) return setMobile(true)
-      return setMobile(false)
-    })
-  }, [])
-
   return (
-    <header className='tablet:pb-[200px] tablet:bg-hero-tablet bg-[top_-100px_right_-19em] desktop:bg-hero-desktop desktop:bg-[top_-150px_right_-300px] desktop:pt-[100px] bg-no-repeat'>
+    <header className='flex flex-col tablet:flex-row max-w-[1100px] mx-auto justify-center items-center tablet:pb-[210px] desktop:pb-[250px]'>
       <Heading />
-      {mobile && <ImageLead />}
+      <Image />
     </header>
   )
 }
