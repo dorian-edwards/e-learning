@@ -41,5 +41,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-//bg-[url("./assets/image-hero-desktop.png")]
